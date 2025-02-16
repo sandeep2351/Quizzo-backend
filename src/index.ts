@@ -8,7 +8,7 @@ const PORT = 5000;
 // ✅ FIX: Configure CORS correctly
 app.use(
   cors({
-    origin: "https://quizzo-xi.vercel.app", // Allow only frontend
+    origin: "https://quizzo-xi.vercel.app/", // Allow only frontend
     credentials: true, // Allow cookies, authorization headers
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
